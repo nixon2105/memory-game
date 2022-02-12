@@ -1,12 +1,12 @@
 [
-  { "image": "./assets/cards/angular.png" },
-  { "image": "./assets/cards/bootstrap.png" },
-  { "image": "./assets/cards/css.png" },
-  { "image": "./assets/cards/html.png" },
-  { "image": "./assets/cards/js.png" },
-  { "image": "./assets/cards/node.png" },
-  { "image": "./assets/cards/pyton.png" },
-  { "image": "./assets/cards/react.png" },
-  { "image": "./assets/cards/vue.png" },
-  { "image": "./assets/cards/webpack.png" }
+  { "image": "./assets/images/cards/angular.png" },
+  { "image": "./assets/images/cards/bootstrap.png" },
+  { "image": "../assets/images/cards/css.png" },
+  { "image": "./assets/images/cards/html.png" },
+  { "image": "./assets/images/cards/js.png" },
+  { "image": "./assets/images/cards/node.png" },
+  { "image": "./assets/images/cards/pyton.png" },
+  { "image": "./assets/images/cards/react.png" },
+  { "image": "./assets/images/cards/vue.png" },
+  { "image": "./assets/images/cards/webpack.png" }
 ]
