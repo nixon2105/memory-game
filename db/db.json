@@ -1,0 +1,12 @@
+[
+  { "image": "./assets/cards/angular.png" },
+  { "image": "./assets/cards/bootstrap.png" },
+  { "image": "./assets/cards/css.png" },
+  { "image": "./assets/cards/html.png" },
+  { "image": "./assets/cards/js.png" },
+  { "image": "./assets/cards/node.png" },
+  { "image": "./assets/cards/pyton.png" },
+  { "image": "./assets/cards/react.png" },
+  { "image": "./assets/cards/vue.png" },
+  { "image": "./assets/cards/webpack.png" }
+]
