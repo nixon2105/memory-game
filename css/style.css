@@ -31,3 +31,35 @@ body {
 .logo__img {
   padding: 10px 0;
 }
+
+.cards {
+  padding: 0 40px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.card {
+  margin-bottom: 40px;
+  position: relative;
+  width: 200px;
+  height: 200px;
+  background-color: rgb(197 211 224 / 80%);
+  border-radius: 20px;
+  cursor: pointer;
+}
+
+.card__font {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  display: flex;
+  width: 100%;
+  background-image: url('../assets/images/cards/bg-cards.png');
+  background-repeat: no-repeat;
+  background-position: center;
+  border-radius: 20px;
+
+  transition: 0.3s;
+}
