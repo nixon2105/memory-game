@@ -28,3 +28,11 @@ const showItem = (data) => {
 };
 
 getData();
+
+const flip = (e) => {
+  const card = e.target.closest('.card');
+  if (e.target.className.includes('card__font')) {
+    card.classList.add('is-flipped');
+  }
+};
+container.addEventListener('click', flip);
