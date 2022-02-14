@@ -33,7 +33,9 @@ body {
 }
 
 .cards {
-  padding: 0 40px;
+  margin: 0 auto;
+  width: 700px;
+  /* padding: 0 40px; */
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -41,25 +43,35 @@ body {
 }
 
 .card {
-  margin-bottom: 40px;
+  margin-bottom: 22px;
   position: relative;
-  width: 200px;
-  height: 200px;
-  background-color: rgb(197 211 224 / 80%);
+  width: 120px;
+  height: 120px;
+  background-color: rgb(170 194 218 / 80%);
   border-radius: 20px;
   cursor: pointer;
 }
 
 .card__font {
-  position: absolute;
-  top: 0;
-  bottom: 0;
-  display: flex;
-  width: 100%;
-  background-image: url('../assets/images/cards/bg-cards.png');
-  background-repeat: no-repeat;
-  background-position: center;
-  border-radius: 20px;
+  display: none;
+  justify-content: center;
+  align-items: center;
 
   transition: 0.3s;
+}
+
+.card__font img {
+  padding: 15px 0;
+}
+
+.card__back {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  transition: 0.3s;
+}
+
+.card__back {
+  padding: 15px 0;
 }

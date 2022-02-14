@@ -3,8 +3,13 @@ const container = document.querySelector('.cards');
 
 const createTemplate = (data) => {
   return `<div class="card">
-  
-</div>`;
+            <div class="card__font">
+              <img src="../assets/images/cards/bg-cards.png" alt="logo" />
+            </div>
+            <div class="card__back">
+              <img src="${data.image}" alt="logo" />
+            </div>
+          </div>`;
 };
 
 const getData = async () => {
