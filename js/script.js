@@ -20,9 +20,11 @@ const getData = async () => {
 
 const showItem = (data) => {
   container.innerHTML = '';
-  data.map((el) => {
-    container.innerHTML += createTemplate(el);
-  });
+  data
+    .sort(() => Math.random() - 0.5)
+    .map((el) => {
+      container.innerHTML += createTemplate(el);
+    });
 };
 
 getData();
