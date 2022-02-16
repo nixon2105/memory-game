@@ -47,8 +47,6 @@ body {
   margin-bottom: 22px;
   width: 120px;
   height: 120px;
-  background-color: rgb(170 194 218 / 80%);
-  border-radius: 20px;
   cursor: pointer;
 }
 
@@ -77,6 +75,8 @@ body {
   background-repeat: no-repeat;
 
   background-image: url('../assets/images/cards/bg-cards.png');
+  background-color: rgb(170 194 218 / 80%);
+  border-radius: 20px;
 
   transition: 0.3s;
 }
@@ -88,6 +88,8 @@ body {
 .card__back {
   background-repeat: no-repeat;
   background-position: center;
+  background-color: rgb(170 194 218 / 80%);
+  border-radius: 20px;
   transition: 0.3s;
   transform: rotateY(180deg);
 }
